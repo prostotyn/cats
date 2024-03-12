@@ -1,4 +1,4 @@
-const url = `https://api.thecatapi.com/v1/images/search?limit=12`;
+const url = `https://api.thecatapi.com/v1/images/search?limit=9`;
 const api_key = "live_okPvldFNKaPGfy6a8lO1zMn0oMBXY3QC3FE2EWrZdLiCCGX43p3FMP5ezbkDpEYE";
 
 const refreshButton = document.getElementById('refreshButton');
@@ -9,8 +9,7 @@ function fetchCats() {
     .then(response => response.json())
     .then(data => {
       const imagesData = data;
-      grid.innerHTML = ''; // Clear existing images
-
+      grid.innerHTML = ''; 
       imagesData.forEach(imageData => {
         const image = document.createElement('img');
         image.src = imageData.url;

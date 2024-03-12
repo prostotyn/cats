@@ -1,5 +1,5 @@
 .maincontent{
-  padding-top: 0%;
+  padding-top: 4%;
   padding-left:0%;
 }
 
@@ -7,7 +7,7 @@
   padding: 1%;
 }
 .col-lg{
-    height: 200px;
+    height: 300px;
     overflow: hidden;
     margin: 10px 0;
     position: relative;
@@ -31,10 +31,8 @@
   justify-content: space-between;
 }
 body {
-  background-image: url('images/background.jpg');
-  background-size: cover;
-  background-position: center; 
-  background-repeat: no-repeat;
+  background-color: #f0e4bb;
+
 }
 
 h1 {
